@@ -22,9 +22,11 @@ attr_accessor :name, :artist, :genre
   def self.genres
     if @@genres.uniq
   end
+  end
   
   def self.artists
     if @@artists.uniq
+      
   end
   
 
