@@ -20,7 +20,7 @@ attr_accessor :name, :artist, :genre
   end
   
   def self.artists
-    if @@genres.include
+    if @@genres.uniq
   end
   
 
