@@ -41,7 +41,8 @@ attr_accessor :name, :artist, :genre
   
   def self.artist_count
     artist_count = {}
-    @@artists.each do ||
+    @@artists.each do |songs|
+      if artist_count
     
     
   
